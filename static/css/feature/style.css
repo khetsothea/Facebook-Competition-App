@@ -1,0 +1,137 @@
+/* 
+    Document   : style
+    Created on : Sep 12, 2013, 11:35:59 PM
+    Author     : danny
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#container
+{
+    background: url(../../images/feature/body-bg.jpg);
+    width: 810px;
+    height: 535px;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-shadow: 0 0 5px #333;
+    position: relative;
+    
+}
+
+.main-box
+{
+    
+    width: 392px;
+    margin-left: 25px;
+   
+}
+.main-content
+{ background: #333333; padding: 0px 9px 0 9px;}
+.inner-box
+{
+    background:url(../../images/feature/inner-bx-bg.png) no-repeat top;
+    margin-bottom: 10px;
+    width: 372px;
+
+}
+.inner-box .inner-content{background: #fff;}
+
+.inner-box h1.title
+{
+    font-weight: 700;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 9px;
+    text-transform: lowercase;
+   
+}
+
+.inner-box p.large-font
+{
+     
+    padding: 9px 9px 20px 9px;;
+    font-size: 22px;
+    font-weight: 900;
+    color: #333333;
+/*    line-height: 18px;*/
+    
+}
+
+span.small-font
+{
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.inner-box p.small-font
+{
+    padding: 9px;
+    font-size: 11px;
+    text-align: center;
+    font-family: Arial;
+}
+#footer
+{
+    height: 40px;
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+#footer img
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+
+.food-list li {float: left;margin:10px;text-align: center; width: 165px;}
+.select-btn
+{
+    background: url(../../images/feature/select-btn.png);
+    display: block;margin: 10px auto;
+    width: 120px;height: 25px;
+}
+
+.share-btn
+{
+    background: url(../../images/feature/WagShareDark.png);
+    display: block;margin: 10px auto;
+    width: 120px;height: 25px;
+}
+
+.enter-btn
+{
+    background: url(../../images/feature/WagEnterDark.png);
+    display: block;margin: 10px auto;
+    width: 120px;height: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.select-btn:hover{background-position: 0 -25px;}
+
+div#confirmationMessage{
+    text-align: center;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+

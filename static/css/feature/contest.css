@@ -1,0 +1,57 @@
+/* 
+    Document   : contest
+    Created on : Sep 12, 2013, 11:38:45 PM
+    Author     : danny
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+form#contest {
+ font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+form#contest label {
+ float: left;
+ font-size: 11px;
+ font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+ width: 110px;
+}
+
+
+form#contest ol li {
+list-style: none;
+}
+
+h2.lightfaceTitle {
+ font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+ font-size: 11px;
+ line-height: 1;
+ text-shadow: none;
+}
+
+div.lightfaceMessageBox 
+{
+ font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+#download-csv {
+-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+box-shadow:inset 0px 1px 0px 0px #ffffff;
+background-color:#ededed;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+border:1px solid #dcdcdc;
+display:inline-block;
+color:#777777;
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+padding:6px 9px;
+text-decoration:none;
+}
+
+#download-csv:hover { background-color:#dfdfdf; }
+#download-csv:active { position:relative; top:1px; }
+
